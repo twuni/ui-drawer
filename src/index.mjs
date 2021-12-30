@@ -6,6 +6,7 @@ const Layout = stylish('div', `
   display: flex;
   flex: 1;
   flex-direction: row;
+  overflow: hidden;
 `);
 
 const Drawer = stylish('aside', ({ open = false, size, theme }) => `
@@ -17,6 +18,7 @@ const Drawer = stylish('aside', ({ open = false, size, theme }) => `
   display: flex;
   flex-direction: column;
   margin: 0 0 0 ${open ? '0' : `-${size}`};
+  overflow: hidden;
   width: ${size};
   ${theme.transition('margin')}
 `);

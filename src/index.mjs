@@ -9,10 +9,13 @@ const Layout = stylish('div', `
 `);
 
 const Drawer = stylish('aside', ({ open = false, size, theme }) => `
+  align-items: stretch;
   border-color: rgba(0, 0, 0, 0.1);
   border-style: solid;
   border-width: 0 1px 0 0;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   margin: 0 0 0 ${open ? '0' : `-${size}`};
   width: ${size};
   ${theme.transition('margin')}

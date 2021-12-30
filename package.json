@@ -1,7 +1,7 @@
 {
   "name": "@twuni/ui-drawer",
   "description": "Layout for presenting content that may have a drawer beside it.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://ui.twuni.dev",
   "license": "MIT",
   "repository": {
